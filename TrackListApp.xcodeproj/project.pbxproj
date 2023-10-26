@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		7FD231AE2AEA7C1C0037287D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD231AD2AEA7C1C0037287D /* AppDelegate.swift */; };
 		7FD231B02AEA7C1C0037287D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD231AF2AEA7C1C0037287D /* SceneDelegate.swift */; };
-		7FD231B22AEA7C1C0037287D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD231B12AEA7C1C0037287D /* ViewController.swift */; };
 		7FD231B52AEA7C1C0037287D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD231B32AEA7C1C0037287D /* Main.storyboard */; };
 		7FD231B72AEA7C1E0037287D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD231B62AEA7C1E0037287D /* Assets.xcassets */; };
 		7FD231BA2AEA7C1E0037287D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD231B82AEA7C1E0037287D /* LaunchScreen.storyboard */; };
+		7FD231C22AEAC7D40037287D /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD231C12AEAC7D40037287D /* TrackListViewController.swift */; };
+		7FD231C42AEACFAB0037287D /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD231C32AEACFAB0037287D /* Track.swift */; };
+		7FD231C62AEAE0590037287D /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD231C52AEAE0590037287D /* TrackDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7FD231AA2AEA7C1C0037287D /* TrackListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD231AD2AEA7C1C0037287D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FD231AF2AEA7C1C0037287D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7FD231B12AEA7C1C0037287D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7FD231B42AEA7C1C0037287D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FD231B62AEA7C1E0037287D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FD231B92AEA7C1E0037287D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FD231BB2AEA7C1E0037287D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD231C12AEAC7D40037287D /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		7FD231C32AEACFAB0037287D /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		7FD231C52AEAE0590037287D /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				7FD231AD2AEA7C1C0037287D /* AppDelegate.swift */,
 				7FD231AF2AEA7C1C0037287D /* SceneDelegate.swift */,
-				7FD231B12AEA7C1C0037287D /* ViewController.swift */,
+				7FD231C12AEAC7D40037287D /* TrackListViewController.swift */,
+				7FD231C52AEAE0590037287D /* TrackDetailsViewController.swift */,
 				7FD231B32AEA7C1C0037287D /* Main.storyboard */,
 				7FD231B62AEA7C1E0037287D /* Assets.xcassets */,
 				7FD231B82AEA7C1E0037287D /* LaunchScreen.storyboard */,
 				7FD231BB2AEA7C1E0037287D /* Info.plist */,
+				7FD231C32AEACFAB0037287D /* Track.swift */,
 			);
 			path = TrackListApp;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FD231B22AEA7C1C0037287D /* ViewController.swift in Sources */,
 				7FD231AE2AEA7C1C0037287D /* AppDelegate.swift in Sources */,
 				7FD231B02AEA7C1C0037287D /* SceneDelegate.swift in Sources */,
+				7FD231C62AEAE0590037287D /* TrackDetailsViewController.swift in Sources */,
+				7FD231C22AEAC7D40037287D /* TrackListViewController.swift in Sources */,
+				7FD231C42AEACFAB0037287D /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
